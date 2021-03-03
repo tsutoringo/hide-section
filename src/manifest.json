@@ -9,7 +9,7 @@
 			"matches": [
 				"https://www.nnn.ed.nico/courses/*/chapters/*"
 			],
-			"run_at": "document_idle",
+			"run_at": "document_end",
 			"js": [
 				"contentScript.js"
 			]
