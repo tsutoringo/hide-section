@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Hide movie section",
+	"version": "0.1.0",
+	"description": "Hide movie section",
+	"permissions": [],
+	"content_scripts": [
+		{
+			"matches": [
+				"https://www.nnn.ed.nico/courses/*/chapters/*"
+			],
+			"run_at": "document_idle",
+			"js": [
+				"contentScript.js"
+			]
+		}
+	]
+}
